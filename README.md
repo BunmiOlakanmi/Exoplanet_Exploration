@@ -38,7 +38,8 @@ The following are the steps followed for the mdoeling process:
 * as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 * Model with the best performance is .... and it is saved as....
 
-#### File Description
+### File Description
+
 
 
 
