@@ -15,16 +15,10 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
     - os
 3. Jupyter Notebook
 
+### Instructions
 
-In this homework assignment, you will need to:  
-
-1. [Preprocess the raw data](#Preprocessing)
-2. [Tune the models](#Tune-Model-Parameters)
-3. [Compare two or more models](#Evaluate-Model-Performance)
-
-- - -
-
-## Instructions
+#### Steps
+The following are the steps required u
 
 ### Preprocess the Data
 
