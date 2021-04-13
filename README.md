@@ -39,9 +39,13 @@ The following are the steps followed for the mdoeling process:
 * Model with the best performance is .... and it is saved as....
 
 ### File Description
-
-
-
+1.  The image folder contains the image of the exoplanet used in the readme file.
+2.  `DecisionTree_RandomForest.ipynb` contains the python code that builds decision tree and random forest models.
+3.  `KNN.ipynb` contains the python code that builds KNN model.
+4.  `Logistic_Regression.ipynb` contains the python code that builds the logistic regression model.
+5.  `SVC.ipynb` contains python code that builds SVC model.
+6.  `exoplanet_data.csv` is the csv file containing the raw data.
+7.  `RF_MODEL.sav` is the saved random forest model file, being the best model. 
 
 
 
