@@ -35,8 +35,11 @@ The following are the steps followed for the mdoeling process:
 #### Model's Performance
 
 * Comparison of each model's performance 
-* as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
-* Model with the best performance is .... and it is saved as....
+* Decision tree and random forest models have the best performances on the training datasets before parameter hypertuning (model score of 1.0 in both cases)
+* However, random forest model performed better (0.733) on the testing datasets than the decision tree model (0.625), even before tuning the parameters.
+* After tuning the parameters, random forest model performed better than the decision tree model, on both training and testing data sets.
+
+* Model with the best performance is random forest and it is saved as `RandomForest.sav`
 
 ### File Description
 1.  The image folder contains the image of the exoplanet used in the readme file.
@@ -45,4 +48,4 @@ The following are the steps followed for the mdoeling process:
 4.  `Logistic_Regression.ipynb` contains the python code that builds the logistic regression model.
 5.  `SVC.ipynb` contains python code that builds SVC model.
 6.  `exoplanet_data.csv` is the csv file containing the raw data.
-7.  `RF_MODEL.sav` is the saved random forest model file, being the best model. 
+7.  `RandomForest.sav` is the saved random forest model file, being the best model. 
