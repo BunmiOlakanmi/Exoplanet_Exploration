@@ -37,8 +37,7 @@ The following are the steps followed for the mdoeling process:
 * Comparison of each model's performance 
 * Decision tree and random forest models have the best performances on the training datasets before parameter hypertuning (model score of 1.0 in both cases)
 * However, random forest model performed better (0.733) on the testing datasets than the decision tree model (0.625), even before tuning the parameters.
-* After tuning the parameters, random forest model performed better than the decision tree model, on both training and testing data sets.
-
+* After tuning the parameters, random forest model's performances dropped on both training and testing data sets. However, it still performed better than the decision tree model.
 * Model with the best performance is random forest and it is saved as `RandomForest.sav`
 
 ### File Description
